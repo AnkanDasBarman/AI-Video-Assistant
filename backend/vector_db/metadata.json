@@ -1,0 +1,44 @@
+[
+    {
+        "chunk_id": 0,
+        "start": 0.0,
+        "end": 20.2,
+        "content": "If you don't have a technical background but you still want to learn the basics of artificial intelligence, stick around because we were distilling Google's 4-hour AI course for beginners into just 10 minutes. I was initially very skeptical because I thought the course would be too conceptual. We're all about practical tips on this channel. And now in Google, the course might just disappear after 1 hour."
+    },
+    {
+        "chunk_id": 1,
+        "start": 20.2,
+        "end": 47.66,
+        "content": "But I found the underlying concepts actually made me better at using tools like ChatGbT and Google Bard. And cleared up a bunch of misconceptions I didn't know I had about AI, machine learning, and large language models. So starting with the broadest possible question, what is artificial intelligence? It turns out, and I'm so embarrassed to admit I didn't know this. AI is an entire field of study, like physics. A machine learning is a subfield of AI."
+    },
+    {
+        "chunk_id": 2,
+        "start": 47.66,
+        "end": 75.44,
+        "content": "Much like how thermodynamics is a subfield of physics. Going down another level, deep learning is a subset of machine learning. And deep learning models can be further broken down into something called discriminative models and generative models. Large language models, LLMs, also fall under deep learning and right at the intersection between generative and LLMs, is the technology that powers the applications we're all familiar with. ChatGbT and Google Bard."
+    },
+    {
+        "chunk_id": 3,
+        "start": 75.44,
+        "end": 102.34,
+        "content": "Let me know in the comments if this was news to you as well. Now that we have an understanding of the overall landscape and you see how the different disciplines sit in relation to each other, let's go over the key takeaways you should know for each level. In the nutshell, machine learning is a program that uses input data to train a model. That train model can then make predictions based on data it has never seen before. For example, if you train a model based on Nike sales data,"
+    },
+    {
+        "chunk_id": 4,
+        "start": 102.34,
+        "end": 129.84,
+        "content": "you can then use that model to predict how well a new shoe from Adidas would sell based on Adidas sales data. Two of the most common types of machine learning models are supervised and unsupervised learning models. The key difference between the two is supervised models use labeled data and unsupervised models use unlabeled data. In this supervised example, we have historical data points that plot the total bill amount at a restaurant against the tip amount."
+    },
+    {
+        "chunk_id": 5,
+        "start": 129.84,
+        "end": 156.94,
+        "content": "And here the data is labeled, blue dot equals the order was picked up and yellow dot equals the order was delivered. Using a supervised learning model, we can now predict how much tip we can expect for the next order given the bill amount and whether it's picked up or delivered. For unsupervised learning models, we look at the raw data and see if it naturally falls into groups. In this example, we plotted the employee tenure at a company against their income."
+    },
+    {
+        "chunk_id": 6,
+        "start": 156.94,
+        "end": 168.14,
+        "content": "We see this group of employees have a relatively high income to years worked ratio versus this group. We can also see all these are unlabeled data. If they weren't able to, we would see mail."
+    }
+]

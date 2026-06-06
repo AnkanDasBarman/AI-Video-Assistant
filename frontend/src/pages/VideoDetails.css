@@ -1,0 +1,138 @@
+/* VideoDetails.css - styling for VideoDetails component */
+
+/* Button styling */
+.action-btn {
+  background: linear-gradient(135deg, hsl(210, 70%, 55%), hsl(210, 70%, 45%));
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  margin-right: 0.5rem;
+}
+.action-btn:hover {
+  background: linear-gradient(135deg, hsl(210, 70%, 65%), hsl(210, 70%, 55%));
+  transform: translateY(-2px);
+}
+.action-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Spinner animation */
+.spinner {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-left-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Fade‑in for panels */
+.fade-in {
+  animation: fadeIn 0.35s ease-out forwards;
+  opacity: 0; /* start hidden for animation */
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Result cards */
+.result-card {
+  background: hsl(210, 20%, 96%);
+  border-left: 4px solid hsl(210, 70%, 55%);
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border-radius: 0.4rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Visible liquid underline */
+.result-card::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(90deg, #00f7ff, #ff00d4, #00f7ff);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease;
+  z-index: 1;
+}
+.result-card:hover::after {
+  transform: scaleX(1);
+}
+
+
+/* Liquid bar effect */
+
+
+.result-card h3, .result-card strong {
+  color: #fff;
+}
+.result-card p {
+  margin: 0.3rem 0;
+  color: #fff;
+}
+.result-card small {
+  color: #666;
+  font-size: 0.75rem;
+}
+
+/* Layout containers */
+.video-details-page {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: 'Inter', sans-serif;
+}
+.video-details-header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.2rem;
+}
+.video-details-header h2 {
+  font-size: 1.1rem;
+  color: #555;
+}
+.video-actions {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.question-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: stretch;
+}
+.question-row input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  font-size: 0.95rem;
+}
+.answer-box {
+  background: hsl(210, 20%, 95%);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  white-space: pre-wrap;
+}
+
+

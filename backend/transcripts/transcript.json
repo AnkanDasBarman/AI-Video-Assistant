@@ -1,0 +1,187 @@
+[
+    {
+        "start": 0.0,
+        "end": 4.58,
+        "text": "If you don't have a technical background but you still want to learn the basics of artificial intelligence,"
+    },
+    {
+        "start": 4.58,
+        "end": 10.66,
+        "text": "stick around because we were distilling Google's 4-hour AI course for beginners into just 10 minutes."
+    },
+    {
+        "start": 10.66,
+        "end": 14.66,
+        "text": "I was initially very skeptical because I thought the course would be too conceptual."
+    },
+    {
+        "start": 14.66,
+        "end": 16.74,
+        "text": "We're all about practical tips on this channel."
+    },
+    {
+        "start": 16.74,
+        "end": 20.2,
+        "text": "And now in Google, the course might just disappear after 1 hour."
+    },
+    {
+        "start": 20.2,
+        "end": 26.06,
+        "text": "But I found the underlying concepts actually made me better at using tools like ChatGbT and Google Bard."
+    },
+    {
+        "start": 26.06,
+        "end": 33.66,
+        "text": "And cleared up a bunch of misconceptions I didn't know I had about AI, machine learning, and large language models."
+    },
+    {
+        "start": 33.66,
+        "end": 38.36,
+        "text": "So starting with the broadest possible question, what is artificial intelligence?"
+    },
+    {
+        "start": 38.36,
+        "end": 41.06,
+        "text": "It turns out, and I'm so embarrassed to admit I didn't know this."
+    },
+    {
+        "start": 41.06,
+        "end": 44.46,
+        "text": "AI is an entire field of study, like physics."
+    },
+    {
+        "start": 44.46,
+        "end": 47.66,
+        "text": "A machine learning is a subfield of AI."
+    },
+    {
+        "start": 47.66,
+        "end": 51.8,
+        "text": "Much like how thermodynamics is a subfield of physics."
+    },
+    {
+        "start": 51.8,
+        "end": 55.4,
+        "text": "Going down another level, deep learning is a subset of machine learning."
+    },
+    {
+        "start": 55.4,
+        "end": 61.76,
+        "text": "And deep learning models can be further broken down into something called discriminative models and generative models."
+    },
+    {
+        "start": 61.76,
+        "end": 69.56,
+        "text": "Large language models, LLMs, also fall under deep learning and right at the intersection between generative and LLMs,"
+    },
+    {
+        "start": 69.56,
+        "end": 73.5,
+        "text": "is the technology that powers the applications we're all familiar with."
+    },
+    {
+        "start": 73.5,
+        "end": 75.44,
+        "text": "ChatGbT and Google Bard."
+    },
+    {
+        "start": 75.44,
+        "end": 77.96,
+        "text": "Let me know in the comments if this was news to you as well."
+    },
+    {
+        "start": 77.96,
+        "end": 84.34,
+        "text": "Now that we have an understanding of the overall landscape and you see how the different disciplines sit in relation to each other,"
+    },
+    {
+        "start": 84.34,
+        "end": 88.0,
+        "text": "let's go over the key takeaways you should know for each level."
+    },
+    {
+        "start": 88.0,
+        "end": 93.54,
+        "text": "In the nutshell, machine learning is a program that uses input data to train a model."
+    },
+    {
+        "start": 93.54,
+        "end": 99.04,
+        "text": "That train model can then make predictions based on data it has never seen before."
+    },
+    {
+        "start": 99.04,
+        "end": 102.34,
+        "text": "For example, if you train a model based on Nike sales data,"
+    },
+    {
+        "start": 102.34,
+        "end": 108.84,
+        "text": "you can then use that model to predict how well a new shoe from Adidas would sell based on Adidas sales data."
+    },
+    {
+        "start": 108.84,
+        "end": 115.34,
+        "text": "Two of the most common types of machine learning models are supervised and unsupervised learning models."
+    },
+    {
+        "start": 115.34,
+        "end": 119.54,
+        "text": "The key difference between the two is supervised models use labeled data"
+    },
+    {
+        "start": 119.54,
+        "end": 123.04,
+        "text": "and unsupervised models use unlabeled data."
+    },
+    {
+        "start": 123.04,
+        "end": 129.84,
+        "text": "In this supervised example, we have historical data points that plot the total bill amount at a restaurant against the tip amount."
+    },
+    {
+        "start": 129.84,
+        "end": 134.34,
+        "text": "And here the data is labeled, blue dot equals the order was picked up"
+    },
+    {
+        "start": 134.34,
+        "end": 137.24,
+        "text": "and yellow dot equals the order was delivered."
+    },
+    {
+        "start": 137.24,
+        "end": 143.74,
+        "text": "Using a supervised learning model, we can now predict how much tip we can expect for the next order given the bill amount"
+    },
+    {
+        "start": 143.74,
+        "end": 146.14,
+        "text": "and whether it's picked up or delivered."
+    },
+    {
+        "start": 146.14,
+        "end": 152.24,
+        "text": "For unsupervised learning models, we look at the raw data and see if it naturally falls into groups."
+    },
+    {
+        "start": 152.24,
+        "end": 156.94,
+        "text": "In this example, we plotted the employee tenure at a company against their income."
+    },
+    {
+        "start": 156.94,
+        "end": 163.24,
+        "text": "We see this group of employees have a relatively high income to years worked ratio versus this group."
+    },
+    {
+        "start": 163.24,
+        "end": 165.94,
+        "text": "We can also see all these are unlabeled data."
+    },
+    {
+        "start": 165.94,
+        "end": 168.14,
+        "text": "If they weren't able to, we would see mail."
+    }
+]

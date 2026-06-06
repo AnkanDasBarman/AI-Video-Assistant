@@ -1,0 +1,23 @@
+.robot-animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.robot {
+  font-size: 3rem;
+  animation: robot-walk 3s ease-in-out infinite;
+}
+
+@keyframes robot-walk {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(10px); }
+}
+
+/* Center title inside recent upload */
+.recent-upload h3 {
+  text-align: center;
+  margin: 8px 0 12px;
+  font-size: 1.5rem;
+}
