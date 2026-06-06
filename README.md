@@ -53,8 +53,12 @@ npm run dev
 - OCR Search
 - Clip Extraction
 - Cross Video Search
-
-<img width="1896" height="968" alt="image" src="https://github.com/user-attachments/assets/336e9880-0060-4448-bcca-529935b30510" />
-
 - Object Detection
 - Video Chapters
+<img width="1896" height="968" alt="image" src="https://github.com/user-attachments/assets/bee950ee-f0b5-4c3a-8c2c-7c097008deea" />
+<img width="1806" height="878" alt="image" src="https://github.com/user-attachments/assets/e00754ec-30ae-446a-aa47-3b408e36c984" />
+<img width="1918" height="1023" alt="image" src="https://github.com/user-attachments/assets/f9879667-0c10-4ba1-a3c7-42eecabe0379" />
+<img width="1393" height="904" alt="image" src="https://github.com/user-attachments/assets/b2693fa4-8243-4407-9e06-fafea9e16b71" />
+<img width="1201" height="745" alt="image" src="https://github.com/user-attachments/assets/2af37227-de8a-4018-8c4f-173b401a6a5a" />
+<img width="1046" height="252" alt="image" src="https://github.com/user-attachments/assets/e705a03f-0eda-4bc7-a695-c47242b576d8" />
+
